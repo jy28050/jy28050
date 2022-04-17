@@ -1,2 +1,2 @@
-# responsiveImages.github.io
+# jy28050.github.io
 Project Website
