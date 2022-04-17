@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+img, video, canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.container {
+    width:100%;
+
+  }
+
+
+  .col {
+    border: solid #333 thin;
+    padding: 1em;
+    float: left;
+   
+}
+
+
+
+
+@media screen and (min-width: 400px) /*2 across*/ {
+  .col {
+    width: 50%;
+  }
+}
+
+
+
+@media screen and (min-width: 600px) /* 3 across*/ {
+  .col {
+   width: 33.3%;
+
+  }
+
+}
+
+
+@media screen and (min-width: 1000px) /* 6 across*/ {
+  .col {
+    width: 16.6%;
+  }
+
+}
